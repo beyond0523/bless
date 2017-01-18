@@ -55,7 +55,7 @@
             }, false);
             win.addEventListener('pageshow', function(e) {
                 if (e.persisted) {
-                   clearTimeout(tid);
+                    clearTimeout(tid);
                     tid = setTimeout(t.refresh, 300);
                 }
             }, false);
