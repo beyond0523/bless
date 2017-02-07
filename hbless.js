@@ -28,7 +28,7 @@
                 }
             }
             scale = 1 / dpr;
-            // docEl.setAttribute("data-dpr",dpr);
+            docEl.setAttribute("dpr",dpr);
         },
         // set meta
         setMeta: function(){
